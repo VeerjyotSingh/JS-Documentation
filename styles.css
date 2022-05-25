@@ -1,0 +1,78 @@
+
+.split {
+    height: 100%;
+    width: 74vw;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Control the left side */
+  .left {
+    background-color: white;
+    margin:auto;
+
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  /* Style the image inside the centered container, if needed */
+  .centered img {
+    width: 150px;
+    border-radius: 50%;
+  }
+  
+  p{
+    font-size:19px;
+    color:#535353;
+    margin:0px 20px 20px 30px;
+  }
+  
+  ul{
+    font-size:19px;
+    margin:0px 20px 0px 30px;
+    color:#535353;
+  }
+
+  div{
+   width:auto;
+   height:auto;
+   padding:10px 10px 3px 10px ;
+   border:0px;
+   background-color: #ece9e9;
+   margin:10px 0px 20px 30px;
+  }
+
+  .box{
+    width:auto;
+    height:auto;
+    padding:20px 20px 20px 20px ;
+    border:0px;
+    background-color: #ece9e9;
+    margin:10px 0px 20px 30px;
+    line-height:200%;
+  }
+
+  h2{
+    font-size:20px;
+    color:#535353;
+  }
+
+  a{
+    color:#535353;
+  }
